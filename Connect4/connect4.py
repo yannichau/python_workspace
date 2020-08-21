@@ -21,6 +21,19 @@ def get_next_open_row(board, col): # loop through rows
 def print_board(board): # flip the matrix over (what we expect to see for a connect4 game)
     print(np.flip(board, axis = 0))
 
+def winning_move(board, piece):
+    # check all horizontal locations
+    for c in range(COL_COUNT-3):
+        for r in range(ROW_COUNT): # Horizontal win can only start on column 3
+            if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
+                return True
+    
+    # check all horizontal locations
+    for r in range(ROW_COUNT):
+        for c in range(COL_COUNT): # Horizontal win can only start on column 3
+            if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
+                return True
+
 # Initiate Variables
 board = create_board()
 print_board(board)
@@ -37,6 +50,10 @@ while not game_over:
             row = get_next_open_row(board,col)
             drop_piece(board, row, col, 1)
 
+            if winning_move(board, 1):
+                print("Player 1 Wins!")
+                game_over = True
+
     # Ask for player 2 input
     else:
         col = int(input("Player 2 make your selection(0-6)"))
@@ -44,6 +61,10 @@ while not game_over:
         if is_valid_location(board,col):
             row = get_next_open_row(board,col)
             drop_piece(board, row, col, 2)
+
+            if winning_move(board, 2):
+                print("Player 2 Wins!")
+                game_over = True
     
     print_board(board)
     turn +=1
