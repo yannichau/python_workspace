@@ -2,6 +2,7 @@ import numpy as np
 
 ROW_COUNT = 6
 COL_COUNT = 7
+WIN_CON = 4
 
 def create_board():
     board = np.zeros((ROW_COUNT,COL_COUNT))
@@ -23,50 +24,73 @@ def print_board(board): # flip the matrix over (what we expect to see for a conn
 
 def winning_move(board, piece):
     # check all horizontal locations
-    for c in range(COL_COUNT-3):
+    for c in range(COL_COUNT-(WIN_CON-1)):
         for r in range(ROW_COUNT): # Horizontal win can only start on column 3
-            if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
-                return True
+            for w in range(WIN_CON):
+                print("w = ", w)
+                h_connect = True
+                if board[r][c+w] != piece: 
+                    print("not connected")
+                    h_connect = False
     
-    # check all horizontal locations
-    for r in range(ROW_COUNT):
-        for c in range(COL_COUNT): # Horizontal win can only start on column 3
-            if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
-                return True
+    # check all vertical locations
+    for c in range(COL_COUNT):
+        for r in range(ROW_COUNT-(WIN_CON-1)): # Horizontal win can only start on column 3
+            for w in range(WIN_CON):
+                v_connect = True
+                if board[r+w][c] != piece: 
+                    v_connect = False 
+    
+    # check positively slope diagonals (going up to the right)
+    for c in range(COL_COUNT-(WIN_CON-1)):
+        for r in range(ROW_COUNT-(WIN_CON-1)):
+            for w in range(WIN_CON):
+                dr_connect = True
+                if board[r+w][c+w] != piece: 
+                    dr_connect = False 
+
+    # Check negatively slope diagonals (going up to the left)
+    for c in range(COL_COUNT-3, COL_COUNT):
+        for r in range(ROW_COUNT-3):
+            for w in range(WIN_CON):
+                dl_connect = True
+                if board[r+w][c-w] != piece: 
+                    dl_connect = False 
+
+    if h_connect == True | v_connect == True | dr_connect == True | dl_connect == True:
+        return True
 
 # Initiate Variables
 board = create_board()
 print_board(board)
 game_over = False
-turn = 0
+h_connect = False
+v_connect = False
+dr_connect = False
+dl_connect = False
+turn = 1
 col = 3
 
 while not game_over:
-    # Ask for Player 1 Input
-    if turn == 0:
-        col = int(input("Player 1 make your selection(0-6)")) # want to make sure that it is an int rather than a string.
 
-        if is_valid_location(board,col):
-            row = get_next_open_row(board,col)
-            drop_piece(board, row, col, 1)
+    # Ask for Player input
+    col = int(input(("Player ", turn, " make your selection(0-6)")))
 
-            if winning_move(board, 1):
-                print("Player 1 Wins!")
-                game_over = True
+    # Check for valid location
+    if is_valid_location(board,col):
+        row = get_next_open_row(board,col)
+        drop_piece(board, row, col, turn)
 
-    # Ask for player 2 input
-    else:
-        col = int(input("Player 2 make your selection(0-6)"))
+    # Check for winning move
+    if winning_move(board, turn):
+        print("Player ", turn, " Wins!")
+        game_over = True
 
-        if is_valid_location(board,col):
-            row = get_next_open_row(board,col)
-            drop_piece(board, row, col, 2)
-
-            if winning_move(board, 2):
-                print("Player 2 Wins!")
-                game_over = True
-    
     print_board(board)
-    turn +=1
-    turn = turn % 2 #Takes the remainder when divided by 2
+    
+    # Next Player
+    if turn == 1:
+        turn = 2
+    else:
+        turn = 1
 
