@@ -124,15 +124,15 @@ def evaluate_window(window, piece):
 	if window.count(piece) == WIN_CON: # 4 in a row
 		score += 100
 	elif window.count(piece) == WIN_CON-1 and window.count(EMPTY) == 1: # 3 in a row
-		score += 10
-	elif window.count(piece) == WIN_CON-2 and window.count(EMPTY) == 2: # 2 in a row
 		score += 5
+	elif window.count(piece) == WIN_CON-2 and window.count(EMPTY) == 2: # 2 in a row
+		score += 2
 
 	# Identify opponents 3/4 in a row
 	if window.count(opp_piece) == WIN_CON: # 4 in a row
-		score -= 500
+		score -= 100
 	elif window.count(opp_piece) == WIN_CON-1 and window.count(EMPTY) == 1: # 3 in a row
-		score -= 50
+		score -= 4
 
 	return score
 
@@ -193,9 +193,59 @@ def pick_best_move(board, piece):
 		score = score_position(temp_board, piece)
 		if score > best_score:
 			best_score = score
-			best_col = col
-	
+			best_col = col	
 	return best_col
+
+# Terminating moves (either player wins or tie)
+def is_terminal_node(board):
+	return winning_move(board, PLAYER) or winning_move(board, AI) or len(get_valid_locations(board)) == 0
+
+# Minimax algorithm for finding the best move
+def minimax(board, depth, alpha, beta, maximizingPlayer):
+	valid_locations = get_valid_locations(board)
+	is_terminal = is_terminal_node(board)
+	if depth == 0 or is_terminal:
+		if is_terminal:
+			if winning_move(board, AI):
+				return (None, 100000000000000)
+			elif winning_move(board, PLAYER):
+				return (None, -10000000000000)
+			else: # Game is over, no more valid moves
+				return (None, 0)
+		else: # Depth is zero, which means the statc evaluation is returned (so the score of placing piece)
+			return (None, score_position(board, AI))
+	if maximizingPlayer:
+		value = -math.inf
+		column = random.choice(valid_locations)
+		for col in valid_locations:
+			row = get_next_open_row(board, col)
+			b_copy = board.copy()
+			drop_piece(b_copy, row, col, AI)
+			new_score = minimax(b_copy, depth-1, alpha, beta, False)[1]
+			if new_score > value:
+				value = new_score
+				column = col
+			alpha = max(alpha, value)
+			if alpha >= beta:
+				break
+		return column, value
+
+	else: # Minimizing player
+		value = math.inf
+		column = random.choice(valid_locations)
+		for col in valid_locations:
+			row = get_next_open_row(board, col)
+			b_copy = board.copy()
+			drop_piece(b_copy, row, col, PLAYER)
+			new_score = minimax(b_copy, depth-1, alpha, beta, True)[1]
+			if new_score < value:
+				value = new_score
+				column = col
+			beta = min(beta, value)
+			if alpha >= beta:
+				break
+		return column, value
+
 		
 #################################### INITIATE VARIABLES ######################################
 board = create_board()
@@ -260,11 +310,11 @@ while not game_over:
 	if turn == AI and not game_over:
 		
 		# col = random.randint(0, COL_COUNT-1)
-		col = pick_best_move(board, AI)
+		# col = pick_best_move(board, AI)
+		col, minimax_score = minimax(board, 4, -math.inf, math.inf, True)
 
 		# Check for valid location
 		if is_valid_location(board,col):
-			pygame.time.wait(1500)
 			AI_valid = True
 			row = get_next_open_row(board,col)
 			drop_piece(board, row, col, turn)
