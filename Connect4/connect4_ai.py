@@ -18,8 +18,6 @@ BLACK = (0,0,0)
 RED = (255,0,0)
 YELLOW = (255, 255, 0)
 
-#
-
 # Screen Rendering Dimensions
 SQUARE_SIZE = 100
 RADIUS = int(SQUARE_SIZE/2 - 5)
@@ -115,19 +113,64 @@ def draw_board(board):
 				pass
 	pygame.display.update()
 
+# Identify 3/4 in a row and assign points
+def evaluate_window(window, piece):
+	score = 0
+	opp_piece = PLAYER
+	if piece == PLAYER:
+			opp_piece = AI
+
+	# Identify own 2/3/4 in a row
+	if window.count(piece) == WIN_CON: # 4 in a row
+		score += 100
+	elif window.count(piece) == WIN_CON-1 and window.count(EMPTY) == 1: # 3 in a row
+		score += 10
+	elif window.count(piece) == WIN_CON-2 and window.count(EMPTY) == 2: # 2 in a row
+		score += 5
+
+	# Identify opponents 3/4 in a row
+	if window.count(opp_piece) == WIN_CON: # 4 in a row
+		score -= 500
+	elif window.count(opp_piece) == WIN_CON-1 and window.count(EMPTY) == 1: # 3 in a row
+		score -= 50
+
+	return score
+
 # Score of various positions available on the board
 def score_position(board, piece):
 	score = 0
 
+	# Score, centre column:
+	center_array = [int(i) for i in list(board[:, COL_COUNT//2])] # Floor division
+	center_count = center_array.count(piece)
+	score += center_count*6
+
 	# Score, Horizontal
 	for r in range(ROW_COUNT): 
 		row_array = [int(i) for i in list(board[r,:])] # all column positions in a rows
-		for c in range (COL_COUNT -3): # Look at all windows size of 4
-			window = row_array[c:WIN_CON]
-			if window.count(piece) == WIN_CON:
-				score += 100
-			elif window.count(piece) == WIN_CON-3 and window.count(EMPTY) == 1:
-				score += 10
+		for c in range (COL_COUNT - (WIN_CON-1)): # Look at all windows size of 4
+			window = row_array[c:c+WIN_CON]
+			score += evaluate_window(window, piece)
+			
+	# Score, Vertical
+	for c in range(COL_COUNT):
+		col_array = [int(i) for i in list(board[:,c])]
+		for r in range (ROW_COUNT- (WIN_CON-1)):
+			window = col_array[r:r+WIN_CON]
+			score += evaluate_window(window, piece)
+
+	# Score, positively scored diagonal
+	for r in range(ROW_COUNT-(WIN_CON-1)):
+		for c in range(COL_COUNT-(WIN_CON-1)):
+			window = [board[r+i][c+i] for i in range(WIN_CON)]
+			score += evaluate_window(window, piece)
+	
+	# Score, negatively scored diagonal
+	for r in range(ROW_COUNT-(WIN_CON-1)):
+		for c in range(COL_COUNT-(WIN_CON-1)):
+			window = [board[r+(WIN_CON-1)-i][c+i] for i in range(WIN_CON)]
+			score += evaluate_window(window, piece)
+
 	return score
 
 # Obtain the list of valid locations on the board
@@ -140,7 +183,7 @@ def get_valid_locations(board):
 
 # Return the best column
 def pick_best_move(board, piece):
-	best_score = 0
+	best_score = -10000
 	valid_locations = get_valid_locations(board)
 	best_col = random.choice(valid_locations)
 	for col in valid_locations:
