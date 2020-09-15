@@ -4,4 +4,8 @@
     "python.linting.pylintEnabled": true,
     "python.linting.banditEnabled": false,
     "python.linting.pylamaEnabled": false,
+    "python.linting.pylintArgs":[
+        "--extension-pkg-whitelist=pygame",
+        "--erros-only"
+  ]
 }
