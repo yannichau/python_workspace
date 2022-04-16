@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/usr/local/Caskroom/miniconda/base/bin/python",
+    "python.linting.pylintArgs": [ "----extension-pkg-whitelist=1xml" ],
+}

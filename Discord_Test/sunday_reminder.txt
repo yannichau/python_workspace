@@ -1,0 +1,119 @@
+$natural at 5PM of 	4 Jan 2021	 send 喂喂喂，今日係星期	一	，使徒行傳有你飛得起第 	1	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	6 Jan 2021	 send hey，今日係星期	三	，使徒行傳有你飛得起第 	2	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	8 Jan 2021	 send 午安，今日係星期	五	，使徒行傳有你飛得起第 	3	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	11 Jan 2021	 send 各位，今日係星期	一	，使徒行傳有你飛得起第 	4	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	13 Jan 2021	 send 提提你，今日係星期	三	，使徒行傳有你飛得起第 	5	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	15 Jan 2021	 send 又係我啦，今日係星期	五	，使徒行傳有你飛得起第 	6	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	18 Jan 2021	 send a-hem，今日係星期	一	，使徒行傳有你飛得起第 	7	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	20 Jan 2021	 send 噢！今日係星期	三	，使徒行傳有你飛得起第 	8	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	22 Jan 2021	 send 喂喂喂，今日係星期	五	，使徒行傳有你飛得起第 	9	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	25 Jan 2021	 send hey，今日係星期	一	，使徒行傳有你飛得起第 	10	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	27 Jan 2021	 send 午安，今日係星期	三	，使徒行傳有你飛得起第 	11	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	29 Jan 2021	 send 各位，今日係星期	五	，使徒行傳有你飛得起第 	12	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	1 Feb 2021	 send 提提你，今日係星期	一	，使徒行傳有你飛得起第 	13	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	3 Feb 2021	 send 又係我啦，今日係星期	三	，使徒行傳有你飛得起第 	14	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	5 Feb 2021	 send a-hem，今日係星期	五	，使徒行傳有你飛得起第 	15	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	8 Feb 2021	 send 噢！今日係星期	一	，使徒行傳有你飛得起第 	16	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	10 Feb 2021	 send 喂喂喂，今日係星期	三	，使徒行傳有你飛得起第 	17	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	12 Feb 2021	 send hey，今日係星期	五	，使徒行傳有你飛得起第 	18	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	15 Feb 2021	 send 午安，今日係星期	一	，使徒行傳有你飛得起第 	19	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	17 Feb 2021	 send 各位，今日係星期	三	，使徒行傳有你飛得起第 	20	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	19 Feb 2021	 send 提提你，今日係星期	五	，使徒行傳有你飛得起第 	21	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	22 Feb 2021	 send 又係我啦，今日係星期	一	，使徒行傳有你飛得起第 	22	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	24 Feb 2021	 send a-hem，今日係星期	三	，使徒行傳有你飛得起第 	23	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	26 Feb 2021	 send 噢！今日係星期	五	，使徒行傳有你飛得起第 	24	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	1 Mar 2021	 send 喂喂喂，今日係星期	一	，使徒行傳有你飛得起第 	25	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	3 Mar 2021	 send hey，今日係星期	三	，使徒行傳有你飛得起第 	26	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	5 Mar 2021	 send 午安，今日係星期	五	，使徒行傳有你飛得起第 	27	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	8 Mar 2021	 send 各位，今日係星期	一	，使徒行傳有你飛得起第 	28	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	10 Mar 2021	 send 提提你，今日係星期	三	，使徒行傳有你飛得起第 	29	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	12 Mar 2021	 send 又係我啦，今日係星期	五	，使徒行傳有你飛得起第 	30	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	15 Mar 2021	 send a-hem，今日係星期	一	，使徒行傳有你飛得起第 	31	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	17 Mar 2021	 send 噢！今日係星期	三	，使徒行傳有你飛得起第 	32	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	19 Mar 2021	 send 喂喂喂，今日係星期	五	，使徒行傳有你飛得起第 	33	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	22 Mar 2021	 send hey，今日係星期	一	，使徒行傳有你飛得起第 	34	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	24 Mar 2021	 send 午安，今日係星期	三	，使徒行傳有你飛得起第 	35	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	26 Mar 2021	 send 各位，今日係星期	五	，使徒行傳有你飛得起第 	36	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	29 Mar 2021	 send 提提你，今日係星期	一	，使徒行傳有你飛得起第 	37	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	31 Mar 2021	 send 又係我啦，今日係星期	三	，使徒行傳有你飛得起第 	38	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	2 Apr 2021	 send a-hem，今日係星期	五	，使徒行傳有你飛得起第 	39	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	5 Apr 2021	 send 噢！今日係星期	一	，使徒行傳有你飛得起第 	40	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	7 Apr 2021	 send 喂喂喂，今日係星期	三	，使徒行傳有你飛得起第 	41	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	9 Apr 2021	 send hey，今日係星期	五	，使徒行傳有你飛得起第 	42	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	12 Apr 2021	 send 午安，今日係星期	一	，使徒行傳有你飛得起第 	43	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	14 Apr 2021	 send 各位，今日係星期	三	，使徒行傳有你飛得起第 	44	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	16 Apr 2021	 send 提提你，今日係星期	五	，使徒行傳有你飛得起第 	45	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	19 Apr 2021	 send 又係我啦，今日係星期	一	，使徒行傳有你飛得起第 	46	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	21 Apr 2021	 send a-hem，今日係星期	三	，使徒行傳有你飛得起第 	47	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	23 Apr 2021	 send 噢！今日係星期	五	，使徒行傳有你飛得起第 	48	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	26 Apr 2021	 send 喂喂喂，今日係星期	一	，使徒行傳有你飛得起第 	49	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	28 Apr 2021	 send hey，今日係星期	三	，使徒行傳有你飛得起第 	50	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	30 Apr 2021	 send 午安，今日係星期	五	，使徒行傳有你飛得起第 	51	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	3 May 2021	 send 各位，今日係星期	一	，使徒行傳有你飛得起第 	52	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	5 May 2021	 send 提提你，今日係星期	三	，使徒行傳有你飛得起第 	53	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	7 May 2021	 send 又係我啦，今日係星期	五	，使徒行傳有你飛得起第 	54	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	10 May 2021	 send a-hem，今日係星期	一	，使徒行傳有你飛得起第 	55	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	12 May 2021	 send 噢！今日係星期	三	，使徒行傳有你飛得起第 	56	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	14 May 2021	 send 喂喂喂，今日係星期	五	，使徒行傳有你飛得起第 	57	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	17 May 2021	 send hey，今日係星期	一	，使徒行傳有你飛得起第 	58	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	19 May 2021	 send 午安，今日係星期	三	，使徒行傳有你飛得起第 	59	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	21 May 2021	 send 各位，今日係星期	五	，使徒行傳有你飛得起第 	60	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	24 May 2021	 send 提提你，今日係星期	一	，使徒行傳有你飛得起第 	61	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	26 May 2021	 send 又係我啦，今日係星期	三	，使徒行傳有你飛得起第 	62	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	28 May 2021	 send a-hem，今日係星期	五	，使徒行傳有你飛得起第 	63	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	31 May 2021	 send 噢！今日係星期	一	，使徒行傳有你飛得起第 	64	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	2 Jun 2021	 send 喂喂喂，今日係星期	三	，使徒行傳有你飛得起第 	65	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	4 Jun 2021	 send hey，今日係星期	五	，使徒行傳有你飛得起第 	66	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	7 Jun 2021	 send 午安，今日係星期	一	，使徒行傳有你飛得起第 	67	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	9 Jun 2021	 send 各位，今日係星期	三	，使徒行傳有你飛得起第 	68	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	11 Jun 2021	 send 提提你，今日係星期	五	，使徒行傳有你飛得起第 	69	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	14 Jun 2021	 send 又係我啦，今日係星期	一	，使徒行傳有你飛得起第 	70	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	16 Jun 2021	 send a-hem，今日係星期	三	，使徒行傳有你飛得起第 	71	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	18 Jun 2021	 send 噢！今日係星期	五	，使徒行傳有你飛得起第 	72	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	21 Jun 2021	 send 喂喂喂，今日係星期	一	，使徒行傳有你飛得起第 	73	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	23 Jun 2021	 send hey，今日係星期	三	，使徒行傳有你飛得起第 	74	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	25 Jun 2021	 send 午安，今日係星期	五	，使徒行傳有你飛得起第 	75	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	28 Jun 2021	 send 各位，今日係星期	一	，使徒行傳有你飛得起第 	76	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	30 Jun 2021	 send 提提你，今日係星期	三	，使徒行傳有你飛得起第 	77	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	2 Jul 2021	 send 又係我啦，今日係星期	五	，使徒行傳有你飛得起第 	78	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	5 Jul 2021	 send a-hem，今日係星期	一	，使徒行傳有你飛得起第 	79	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	7 Jul 2021	 send 噢！今日係星期	三	，使徒行傳有你飛得起第 	80	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	9 Jul 2021	 send 喂喂喂，今日係星期	五	，使徒行傳有你飛得起第 	81	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	12 Jul 2021	 send hey，今日係星期	一	，使徒行傳有你飛得起第 	82	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	14 Jul 2021	 send 午安，今日係星期	三	，使徒行傳有你飛得起第 	83	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	16 Jul 2021	 send 各位，今日係星期	五	，使徒行傳有你飛得起第 	84	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	19 Jul 2021	 send 提提你，今日係星期	一	，使徒行傳有你飛得起第 	85	 站。同天父傾計傾成點？	 to #poll-bot	
+$natural at 5PM of 	21 Jul 2021	 send 又係我啦，今日係星期	三	，使徒行傳有你飛得起第 	86	 站。你靈修咗未？	 to #poll-bot	
+$natural at 5PM of 	23 Jul 2021	 send a-hem，今日係星期	五	，使徒行傳有你飛得起第 	87	 站。靈修完同我講一聲好嗎？	 to #poll-bot	
+$natural at 5PM of 	26 Jul 2021	 send 噢！今日係星期	一	，使徒行傳有你飛得起第 	88	 站。你做咗任務未？	 to #poll-bot	
+$natural at 5PM of 	28 Jul 2021	 send 喂喂喂，今日係星期	三	，使徒行傳有你飛得起第 	89	 站。你起飛咗未？	 to #poll-bot	
+$natural at 5PM of 	30 Jul 2021	 send hey，今日係星期	五	，使徒行傳有你飛得起第 	90	 站。同天父傾計傾成點？	 to #poll-bot
+$natural at 5PM of 	10 January 2021	 send hello，今日係 Week  	2	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	17 January 2021	 send 你好嗎？今日係 Week  	3	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	24 January 2021	 send 噢，今日係 Week  	4	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	31 January 2021	 send 誒！今日係 Week  	5	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
+$natural at 5PM of 	7 February 2021	 send 講開又講，今日係 Week  	6	 嘅開始。今個禮拜嘅靈修負責人係: 	晞諾	@Enoch Rubbish Poorguy	 to #reminder-bot
+$natural at 5PM of 	14 February 2021	 send 點啊你，今日係 Week  	7	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	21 February 2021	 send a-hem, 今日係 Week  	8	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	28 February 2021	 send hello，今日係 Week  	9	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	7 March 2021	 send 你好嗎？今日係 Week  	10	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
+$natural at 5PM of 	14 March 2021	 send 噢，今日係 Week  	11	 嘅開始。今個禮拜嘅靈修負責人係: 	晞諾	@Enoch Rubbish Poorguy	 to #reminder-bot
+$natural at 5PM of 	21 March 2021	 send 誒！今日係 Week  	12	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	28 March 2021	 send 講開又講，今日係 Week  	13	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	4 April 2021	 send 點啊你，今日係 Week  	14	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	11 April 2021	 send a-hem, 今日係 Week  	15	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
+$natural at 5PM of 	18 April 2021	 send hello，今日係 Week  	16	 嘅開始。今個禮拜嘅靈修負責人係: 	晞諾	@Enoch Rubbish Poorguy	 to #reminder-bot
+$natural at 5PM of 	25 April 2021	 send 你好嗎？今日係 Week  	17	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	2 May 2021	 send 噢，今日係 Week  	18	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	9 May 2021	 send 誒！今日係 Week  	19	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	16 May 2021	 send 講開又講，今日係 Week  	20	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
+$natural at 5PM of 	23 May 2021	 send 點啊你，今日係 Week  	21	 嘅開始。今個禮拜嘅靈修負責人係: 	晞諾	@Enoch Rubbish Poorguy	 to #reminder-bot
+$natural at 5PM of 	30 May 2021	 send a-hem, 今日係 Week  	22	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	6 June 2021	 send hello，今日係 Week  	23	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	13 June 2021	 send 你好嗎？今日係 Week  	24	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	20 June 2021	 send 噢，今日係 Week  	25	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
+$natural at 5PM of 	27 June 2021	 send 誒！今日係 Week  	26	 嘅開始。今個禮拜嘅靈修負責人係: 	晞諾	@Enoch Rubbish Poorguy	 to #reminder-bot
+$natural at 5PM of 	4 July 2021	 send 講開又講，今日係 Week  	27	 嘅開始。今個禮拜嘅靈修負責人係: 	恩陶	@cluelessyanni	 to #reminder-bot
+$natural at 5PM of 	11 July 2021	 send 點啊你，今日係 Week  	28	 嘅開始。今個禮拜嘅靈修負責人係: 	Mac	@MacJu	 to #reminder-bot
+$natural at 5PM of 	18 July 2021	 send a-hem, 今日係 Week  	29	 嘅開始。今個禮拜嘅靈修負責人係: 	子皓	@蘇打粉	 to #reminder-bot
+$natural at 5PM of 	25 July 2021	 send hello，今日係 Week  	30	 嘅開始。今個禮拜嘅靈修負責人係: 	Jasper	@jasper	 to #reminder-bot
